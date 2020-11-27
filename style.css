@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing:border-box;
+}
+
+/* controls hero box*/
+.box{
+width: 100%;
+min-height:100vh;
+display: flex;
+align-items:center;
+}
+
+/* picture*/
+.banner{
+position: relative;
+width:100%;
+min-height:100vh;
+display:flex;
+flex-direction: column;
+align-items: top;
+background: url(.//img/nightsky.jpg);
+background-size: cover;
+}
+
+
+
+
+
+.banner .content h1{
+font-size: 20px;
+color:#fff;
+margin-bottom: 20px;
+}
+
+/*style button*/
+.btn{
+padding: 10px 20px;
+display: inline-block;
+color:rgb(255, 94, 0);
+border: 3px solid orangered;
+background-color:rgb(210, 252, 255);
+font-size: 1rem;
+text-emphasis: em;
+}
+
+.btn:hover{
+background-color: #ffa600e6;
+color:rgb(155, 0, 77);
+box-shadow: 0 0 20px #ffa600e6;
+}
+
+/*style navigation button*/
+.nav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+
+.nav a:hover {
+background-color:#2196F3;
+color: black;
+box-shadow:0 0 10px #2196F3;
+}
+
+
+
+
+
+
+#about{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #f1f1f1;
+}
+.abt-section{
+background: url(.//img/sunset.jpg)no-repeat left;
+background-size: 55%;
+background-color: #fdfdfd;
+overflow: hidden;
+padding: 100px 0;
+}
+
+/*move data to right*/
+.data{
+width: 55%;
+float: right;
+background-color: #fdfdfd;
+padding: 20px;
+}
+.data h1{
+margin-bottom: 30px;
+font-size: 30px;
+}
+p{
+font-size: 15px;
+line-height:20px;
+text-align: justify;
+margin-bottom: 40px;
+}
+#contactbox{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.message{
+text-align:center;
+color:rgb(255, 255, 255);
+display: flex;
+align-items: center;
+float:right;
+min-height:100vh;
+width:100%;
+margin-top:20px;
+}
+h3{
+text-align:center;
+}
+
+
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 5px;
+border: 1px solid rgb(255, 86, 86);
+margin-top: 6px;
+margin-bottom: 12px;
+resize: vertical;
+opacity: 0.5;
+}
+
+input[type=submit] {
+color: orangered;
+padding: 12px 20px;
+border: none;
+cursor: pointer;
+font-size: 20px;
+opacity:70%;
+}
+
+input[type=submit]:hover {
+background-color:greenyellow;
+box-shadow: 20px greenyellow;
+}
+
+/* Style the container/contact section */
+.container {
+background-image:url(.//img/classroom.jpg);
+background-size: cover;
+min-height:100vh;
+width:100%;
+display:flex;
+opacity:80%;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+float: left;
+width: 50%;
+margin-top: 6px;
+padding: 20px;
+color: rgb(255, 255, 255);
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+.column, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+}
+}
