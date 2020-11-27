@@ -21,7 +21,7 @@ min-height:100vh;
 display:flex;
 flex-direction: column;
 align-items: top;
-background: url(nightsky.jpg);
+background: url(img/nightsky.jpg);
 background-size: cover;
 }
 
@@ -82,7 +82,7 @@ justify-content: center;
 background-color: #f1f1f1;
 }
 .abt-section{
-background: url(sunset.jpg)no-repeat left;
+background: url(img/sunset.jpg)no-repeat left;
 background-size: 55%;
 background-color: #fdfdfd;
 overflow: hidden;
@@ -155,7 +155,7 @@ box-shadow: 20px greenyellow;
 
 /* Style the container/contact section */
 .container {
-background-image:url(classroom.jpg);
+background-image:url(img/classroom.jpg);
 background-size: cover;
 min-height:100vh;
 width:100%;
